@@ -1,0 +1,96 @@
+/* Write your code here. */
+.bg-container {
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+  font-family: Robot;
+  font-size: 30px;
+  font-weight: bold;
+}
+.boxes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+.small-box {
+  height: 90px;
+  width: 85px;
+  background-color: #fbbf24;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.medium-box {
+  height: 160px;
+  width: 150px;
+  background-color: #38bdf8;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.large-box {
+  height: 250px;
+  width: 210px;
+  background-color: #ec4899;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-formate {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 15px;
+}
+@media screen and (max-width: 576px) {
+  .boxes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .small-box {
+    height: 80px;
+    width: 90px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .medium-box {
+    height: 140px;
+    width: 160px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .large-box {
+    height: 200px;
+    width: 210px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
